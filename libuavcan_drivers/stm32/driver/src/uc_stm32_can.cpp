@@ -205,7 +205,7 @@ int CanIface::computeTimings(const uavcan::uint32_t target_bitrate, Timings& out
 #if UAVCAN_STM32_BAREMETAL
     const uavcan::uint32_t pclk = STM32_PCLK1;
 #elif UAVCAN_STM32_CHIBIOS
-    const uavcan::uint32_t pclk = STM32_PCLK1;
+    const uavcan::uint32_t pclk = (SystemCoreClock/4);
 #elif UAVCAN_STM32_NUTTX
     const uavcan::uint32_t pclk = STM32_PCLK1_FREQUENCY;
 #elif UAVCAN_STM32_FREERTOS

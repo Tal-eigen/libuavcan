@@ -28,3 +28,21 @@ dsdlc_generated
 
 # Log files
 *.log
+
+#TAGS
+TAGS
+.TAGS
+!TAGS/
+tags
+.tags
+!tags/
+gtags.files
+GTAGS
+GRTAGS
+GPATH
+GSYMS
+cscope.files
+cscope.out
+cscope.in.out
+cscope.po.out
+

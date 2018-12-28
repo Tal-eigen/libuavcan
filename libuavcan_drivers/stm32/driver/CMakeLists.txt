@@ -2,11 +2,23 @@ include_directories(
     ./include
     )
 
+set(UAVCAN_STM32_INC ${CMAKE_CURRENT_SOURCE_DIR}/include CACHE INTERNAL "stm32 uavcan driver include")
+
 add_library(uavcan_stm32_driver STATIC
     ./src/uc_stm32_can.cpp
     ./src/uc_stm32_clock.cpp
     ./src/uc_stm32_thread.cpp
     )
+
+target_include_directories(uavcan_stm32_driver PUBLIC
+										 					${PROJECT_CONF_DIR}
+                             ${CHIBIOS_INCLUDE_DIRS}
+                             ${CHIBIOS_ROOT}/os/common/ext/CMSIS/ST/STM32F4xx/
+                             ${CHIBIOS_ROOT}/os/common/ext/CMSIS/include/
+                             #TODO: Add better dependency for board.h
+                             ${CMAKE_SOURCE_DIR}/src/stm32_uavcan/include/
+                           )
+target_compile_definitions(uavcan_stm32_driver PRIVATE STM32F429xx)
 
 add_dependencies(uavcan_stm32_driver uavcan)
 
