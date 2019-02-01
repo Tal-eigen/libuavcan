@@ -1,0 +1,4 @@
+uavcan.Timestamp timestamp
+
+float32[3]	gyro_latest
+float32[3]	accel_latest
