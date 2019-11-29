@@ -1,0 +1,15 @@
+bool charging
+
+bool BatteryHealthOK
+bool BatteryHealthLow
+bool BatteryHealthCritical
+
+uint32 CapacityDesigned
+uint32 CapacityFull
+uint32 RemainingCapacity
+
+uint8 nCells
+
+uint32 Volts
+float16 Amps
+float16 TempC 
