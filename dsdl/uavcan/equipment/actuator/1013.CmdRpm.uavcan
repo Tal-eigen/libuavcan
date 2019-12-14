@@ -1,4 +1,4 @@
-Timestamp tstamp
+uavcan.Timestamp tstamp
 
 int8 rpmLeft
 int8 rpmRight

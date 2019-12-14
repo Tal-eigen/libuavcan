@@ -1,0 +1,4 @@
+uavcan.Timestamp time
+
+int16[2] ticks
+int64[2] totalCount

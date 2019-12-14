@@ -1,4 +1,4 @@
-Timestamp tstamp
+uavcan.Timestamp tstamp
 
 float16 velLeft
 float16 velRight
