@@ -1,0 +1,9 @@
+bool enableControl
+
+uint32 encoderTicksPerRev
+uint16 controlLoopHz
+
+uint8 maxRpm
+uint8 gearRatio
+
+uint8 accLimit 
