@@ -1,4 +1,5 @@
 bool enableControl
+uavcan.control.RpmPID Pid 
 
 uint32 encoderTicksPerRev
 uint16 encoderPubHz
@@ -8,4 +9,11 @@ uint8 maxRpm
 uint8 gearRatio
 uint8 accLimit
 
-RpmPID Pid 
+uint8  MODE_OPENLOOP = 0
+uint8  MODE_CLOSEDLOOP = 1
+uint8  mode
+
+---
+
+bool configApplied
+
