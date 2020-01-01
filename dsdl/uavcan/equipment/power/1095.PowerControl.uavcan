@@ -1,0 +1,11 @@
+
+bool enableMotor
+bool enablePC
+bool enableIMX6
+bool enableUC
+bool enableLAN
+bool enableKINECT
+bool enableSICK
+bool enableAUX 
+
+---
