@@ -1,0 +1,11 @@
+
+---
+
+bool MotorOn
+bool PCOn
+bool IMX6On
+bool UCOn
+bool LANOn
+bool KINECTOn
+bool SICKOn
+bool AUXOn 
