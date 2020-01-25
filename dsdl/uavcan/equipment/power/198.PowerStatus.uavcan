@@ -1,4 +1,4 @@
-uint8_t dummy
+uint8 dummy
 ---
 
 bool MotorOn
