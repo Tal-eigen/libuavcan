@@ -1,6 +1,5 @@
 uint8 dummy
 ---
-bool resourceBusy
 bool MotorOn
 bool PCOn
 bool IMX6On
