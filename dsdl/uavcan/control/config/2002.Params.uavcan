@@ -1,0 +1,7 @@
+float16 wheelRadius
+float16 wheelBase
+uint8 maxRPM
+uint8 gearRatio
+uint32 maxEncoderTicks
+float16 maxV
+float16 maxW
