@@ -2,3 +2,4 @@ uavcan.Timestamp time
 
 uint16[2] ticks
 int64[2] totalCount
+float16[2]	tick_hz
