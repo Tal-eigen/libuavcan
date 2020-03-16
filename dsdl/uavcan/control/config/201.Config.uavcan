@@ -1,4 +1,5 @@
 bool enableControl
+bool closeLoopControl
 uavcan.control.RpmPID Pid 
 
 uint32 encoderTicksPerRev
