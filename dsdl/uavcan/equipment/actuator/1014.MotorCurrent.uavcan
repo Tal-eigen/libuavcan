@@ -1,1 +1,2 @@
-float16[2] windingCurrent
+float16 rightMotorCurrent
+float16 leftMotorCurrent
