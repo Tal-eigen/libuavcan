@@ -1,3 +1,4 @@
 float32[3] pose
 float32[2] linearVel
 float32 angularVel
+float32[2] wheelVel 
