@@ -1,3 +1,5 @@
+uavcan.Timestamp timestamp
+
 bool charging
 
 bool BatteryHealthOK
