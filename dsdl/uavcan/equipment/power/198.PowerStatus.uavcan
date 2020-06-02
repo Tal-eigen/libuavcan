@@ -1,5 +1,5 @@
-
-
+uint8 dummy
+---
 bool MotorOn
 bool PCOn
 bool IMX6On
