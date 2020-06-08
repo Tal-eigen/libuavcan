@@ -1,0 +1,5 @@
+uavcan.Timestamp timestamp
+
+float16[2] error
+float16[2] integralError
+float16[2] output
