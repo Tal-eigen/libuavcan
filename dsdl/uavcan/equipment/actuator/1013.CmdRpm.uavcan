@@ -1,4 +1,4 @@
 uavcan.Timestamp tstamp
 
-int8 rpmLeft
-int8 rpmRight
+int16 rpmLeft
+int16 rpmRight
