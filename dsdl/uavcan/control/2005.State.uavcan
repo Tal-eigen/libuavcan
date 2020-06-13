@@ -4,4 +4,4 @@ uint8 CONTROLACTIVE = 2
 uint8 OPENLOOPCONTROL = 3
 uint8 OPENDRIVE = 4
 uint8 HALT = 5
-
+uint8 BRAKE = 6
