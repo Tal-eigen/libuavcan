@@ -3,5 +3,10 @@ uavcan.Timestamp timestamp
 float32 roll
 float32 pitch
 float32 yaw
+
+float32 Vx
+float32 Vy
+float32 Vz
+
 float32[3]	gyro_latest
 float32[3]	accel_latest
