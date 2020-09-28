@@ -4,8 +4,7 @@ bool enablePC
 bool enableIMX6
 bool enableUC
 bool enableLAN
-bool enableKINECT
+bool enablev24
 bool enableSICK
-bool enableAUX 
 
 ---

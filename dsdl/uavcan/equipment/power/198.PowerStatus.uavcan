@@ -5,6 +5,5 @@ bool PCOn
 bool IMX6On
 bool UCOn
 bool LANOn
-bool KINECTOn
+bool v24On
 bool SICKOn
-bool AUXOn 
